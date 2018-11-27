@@ -16,6 +16,12 @@ result = "The {} {} walked down to the church. Every Sunday {} shoots {} shot wi
  print(result.format(adj,animal,noun_name,pronoun,occupation))
 
 
+def madlibs2():
+
+verb = input ('enter an action verb')
+
+book = input ('enter name of book')
+
 
 
 
