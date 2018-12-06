@@ -1,41 +1,18 @@
-madlibs = story()
+##madlibs = story()
 
-def madLibs1():
+def mad_Libs1():
+    print("welcome to the party")
+
 #adjetive
-adj = input('enter a descreptive word')
+    a_adjetive = input('enter a descreptive word')
 #animal
-animal = input('insert animal of your choosing')
+    a_animal = input('insert animal of your choosing')
 #noun name
-noun_name = input('Enter a name')
+    a_proper_noun = input('Enter a name')
 #occupation
-occupation = input('enter a job or career')
+    a_occupation = input('enter a job or career')
 #pronoun
-pronuoun = input('insert appropiate pronoun')
+    a_pronuoun = input('insert appropiate pronoun')
 
-result = "The {} {} walked down to the church. Every Sunday {} shoots {} shot with the {} daughter."
- print(result.format(adj,animal,noun_name,pronoun,occupation))
-
-
-def madlibs2():
-
-verb = input ('enter an action verb')
-
-book = input ('enter name of book')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-The green dog walked down to the church. Every Sunday Daniel shoots his shot with the pastors daughter.
+result = "The {} {} walked down to the church. Every Sunday {} shot with the + {} son."
+#print(result.format(adjetive,animal,noun_name,pronoun,occupation))
